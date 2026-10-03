@@ -1,0 +1,10 @@
+| No. | Studi Kasus                         | Operator | Nilai Kondisi        | Hasil                             |
+| --- | ----------------------------------- | -------- | -------------------- | --------------------------------- |
+| 1  | Seleksi Kelulusan Peserta           | AND      | `True, True, True`   | **LULUS**                         |
+| 2  | Seleksi Penerima Beasiswa           | AND      | `True, True, False`  | **Tidak mendapat beasiswa**       |
+| 3  | Syarat Mengikuti Ujian              | AND      | `True, True, True`   | **Boleh mengikuti ujian**         |
+| 4  | Penerimaan Format File Tugas        | OR       | `False, True, False` | **Tugas diterima**                |
+| 5  | Pemberian Nilai Tambahan Mahasiswa  | OR       | `False, True, False` | **Mendapat nilai tambahan**       |
+| 6  | Verifikasi Akses Mengikuti Kegiatan | OR       | `False, False, True` | **Boleh mengikuti kegiatan**      |
+| 7  | Pemilihan Jalur Pendaftaran         | XOR      | `True, False`        | **Pilihan jalur VALID**           |
+| 8  | Validasi Metode Pembayaran          | XOR      | `True, True`         | **Metode pembayaran TIDAK VALID** |
