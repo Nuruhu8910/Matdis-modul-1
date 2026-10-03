@@ -1,0 +1,10 @@
+| No. | Studi Kasus         | Operator | Nilai        | Out put                               |
+| --- | ------------------- | -------- | -------------| ------------------------------------- |
+| 1.  | Kelulusan           | AND      | T | T | T |  | Mahasiswa lulus                       |
+| 2.  | Beasiswa            | AND      | T | F | T |  | Mahasiswa TIDAK mendapat beasiswa     |
+| 3.  | Login               | AND      | T | T | T |  | Login berhasil                        |
+| 4.  | Akses wifi          | OR       | T | T |      | Akases WiFi DITERIMA                  |
+| 5.  | Prioritas seleksi   | OR       | F | T |      | Peserta mendapat prioritas            |
+| 6.  | Ujian susulan       | OR       | F | F |      | Tidak boleh mengikuti ujian susulan   |
+| 7.  | Sistem Kendaraan    | XOR      | F | T |      | Mode kendaraan VALID                  |
+| 8.  | Pembayaran          | XOR      | T | T |      | Pilihan pembayaran TIDAK VALID        |
